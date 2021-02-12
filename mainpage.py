@@ -15,8 +15,8 @@ def app():
     #display thayer school logo
     #imagee = cv2.imread('images/new_logo.png')
     #cv2.imshow('Image', imagee)
-    #st.image(imagee, caption='Thayer School of Engineering at Dartmouth')
-    st.markdown("![Thayer School of Engineering at Dartmouth](https://media-exp1.licdn.com/dms/image/C4D0BAQHbn37aWqwcXw/company-logo_200_200/0/1519902433979?e=2159024400&v=beta&t=s-52_U4H7iFzqUSX8eMBXHsgRnaW76EVkKs6zpVk_yM)")
+    #st.image(imagee, caption='Thayer School of Engineering at Dartmouth')http
+    st.markdown("![Thayer School of Engineering at Dartmouth](http://smt.iconnect007.com/files/5815/0593/2065/ThayerLogo.jpg)")
 
     # front end elements of the web page 
     html_temp = """ 
