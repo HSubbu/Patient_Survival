@@ -12,22 +12,7 @@ matplotlib == 3.2.2
 numpy == 1.18.5
 
 # C:\Users\dbazoneny\Downloads\Patient_Survival\mainpage.py: 7
-opencv-contrib-python == 4.5.1.48
-
-# C:\Users\dbazoneny\Downloads\Patient_Survival\mainpage.py: 7
-opencv-contrib-python-headless == 4.5.1.48
-
-# C:\Users\dbazoneny\Downloads\Patient_Survival\mainpage.py: 7
 opencv-python == 4.5.1.48
-
-
-# C:\Users\dbazoneny\Downloads\Patient_Survival\mainpage.py: 7
-opencv-python-headless == 4.5.1.48
-
-# C:\Users\dbazoneny\Downloads\Patient_Survival\mainpage.py: 7
-opencv-python-inference-engine == 4.5.0.1
-
-
 
 # C:\Users\dbazoneny\Downloads\Patient_Survival\mainpage.py: 3
 # C:\Users\dbazoneny\Downloads\Patient_Survival\page1.py: 3
