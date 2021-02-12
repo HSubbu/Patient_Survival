@@ -98,7 +98,7 @@ def app():
                         'Patient_Rural_Urban_RURAL':Patient_Rural_Urban_RURAL,
                         'Patient_Rural_Urban_URBAN':Patient_Rural_Urban_URBAN, 
                         'No_of_treatment_drugs':No_of_treatment_drugs},index=[1])
-    st.write(X_test)
+    st.DataFrame(X_test)
 
                
     # Use the loaded model to make predictions 
