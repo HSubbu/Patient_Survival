@@ -80,10 +80,7 @@ def app():
     No_of_treatment_drugs = DX1+DX2+DX3+DX4+DX5+DX6
     No_of_treatment_drugs = float(No_of_treatment_drugs)
 
-    st.write(No_of_treatment_drugs) #print no of treatment drugs
-
-    # Load the model from the file 
-    XGB_from_joblib = joblib.load('patient_survival.pkl')
+    
 
     st.write('A dataframe constructed with User Input Attributes is ...')   
 
@@ -116,8 +113,8 @@ def app():
         return username,password
 
     st.cache()
-    def predict_model(X):
-        result = XGB_from_joblib.predict(X)
+    def predict_model(X_test):
+        result = XGB_from_joblib.predict(X_test)
         if result == 0:
             answer = 'Not_Survived_1_year'
         else:
