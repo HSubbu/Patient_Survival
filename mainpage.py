@@ -16,7 +16,7 @@ def app():
     #imagee = cv2.imread('images/new_logo.png')
     #cv2.imshow('Image', imagee)
     #st.image(imagee, caption='Thayer School of Engineering at Dartmouth')
-    st.markdown(!(https://engineering.dartmouth.edu/uploads/logo-thayer-shield-green-border.png))
+    st.markdown("![Thayer School of Engineering at Dartmouth](https://engineering.dartmouth.edu/uploads/logo-thayer-shield-green-border.png)")
 
     # front end elements of the web page 
     html_temp = """ 
