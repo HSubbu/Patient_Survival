@@ -1,1 +1,1 @@
-web: sh setup.sh && streamlit run dartmouthmain.py
+web: sh create_config.sh && streamlit run dartmouthmain.py
