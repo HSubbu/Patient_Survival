@@ -18,9 +18,6 @@ opencv-contrib-python == 4.5.1.48
 opencv-contrib-python-headless == 4.5.1.48
 
 # C:\Users\dbazoneny\Downloads\Patient_Survival\mainpage.py: 7
-opencv-openvino-contrib-python == 4.1.1.26
-
-# C:\Users\dbazoneny\Downloads\Patient_Survival\mainpage.py: 7
 opencv-python == 4.5.1.48
 
 # C:\Users\dbazoneny\Downloads\Patient_Survival\mainpage.py: 7
