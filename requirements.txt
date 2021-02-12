@@ -20,8 +20,6 @@ opencv-contrib-python-headless == 4.5.1.48
 # C:\Users\dbazoneny\Downloads\Patient_Survival\mainpage.py: 7
 opencv-python == 4.5.1.48
 
-# C:\Users\dbazoneny\Downloads\Patient_Survival\mainpage.py: 7
-opencv-python-aarch64 == 3.3.0.1
 
 # C:\Users\dbazoneny\Downloads\Patient_Survival\mainpage.py: 7
 opencv-python-headless == 4.5.1.48
