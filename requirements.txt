@@ -30,4 +30,4 @@ seaborn == 0.10.1
 # C:\Users\dbazoneny\Downloads\Patient_Survival\page3.py: 2
 streamlit == 0.73.1
 
-opencv-python
+
