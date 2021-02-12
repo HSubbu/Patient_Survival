@@ -98,7 +98,7 @@ def app():
                         'Patient_Rural_Urban_RURAL':Patient_Rural_Urban_RURAL,
                         'Patient_Rural_Urban_URBAN':Patient_Rural_Urban_URBAN, 
                         'No_of_treatment_drugs':No_of_treatment_drugs},index=[1])
-    st.DataFrame(X_test)
+    st.write(X_test) 
 
                
     # Use the loaded model to make predictions 
@@ -132,7 +132,10 @@ def app():
         st.success('Probability for Survived_1_year')
         st.write(prob)
         return None 
+    # Load the model from the file 
+    XGB_from_joblib = joblib.load('patient_survival.pkl')
 
+    #when user presses predict button take in UN and PWD and predict
     if st.button("Predict"):
         data = load_authorize(username,password)
 
