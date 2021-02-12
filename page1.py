@@ -30,7 +30,7 @@ def app():
         i=1
         for col in numeric_columns:
             f.add_subplot(2,2,i)
-            sns.histplot(data=data,x=col,hue='Survived_1_year',kde=True,palette='Set1')
+            sns.distplot(data=data,x=col,hue='Survived_1_year',kde=True,palette='Set1')
             i+=1
         st.pyplot()
 
