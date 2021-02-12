@@ -30,7 +30,7 @@ def app():
         i=1
         for col in numeric_columns:
             f.add_subplot(2,2,i)
-            sns.distplot(data[col],palette='Set1')
+            sns.distplot(data[col],color='g')
             i+=1
         st.pyplot()
 
