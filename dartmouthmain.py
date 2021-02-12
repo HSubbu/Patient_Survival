@@ -4,6 +4,7 @@ import page2
 import page3
 import mainpage
 import streamlit as st
+import cv2
 PAGES = {
     "Home Page":mainpage,
     "Features":page3,
