@@ -13,9 +13,10 @@ st.set_option('deprecation.showPyplotGlobalUse', False)
 def app():
     #personalise home page
     #display thayer school logo
-    imagee = cv2.imread('images/new_logo.png')
-    cv2.imshow('Image', imagee)
-    st.image(imagee, caption='Thayer School of Engineering at Dartmouth')
+    #imagee = cv2.imread('images/new_logo.png')
+    #cv2.imshow('Image', imagee)
+    #st.image(imagee, caption='Thayer School of Engineering at Dartmouth')
+    st.markdown(!(https://engineering.dartmouth.edu/uploads/logo-thayer-shield-green-border.png))
 
     # front end elements of the web page 
     html_temp = """ 
