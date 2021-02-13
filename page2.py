@@ -129,8 +129,12 @@ def app():
         st.success('Probability for Survived_1_year')
         st.write(prob)
         return None 
+
+    import pickle
     # Load the model from the file 
     XGB_from_joblib = joblib.load('patient_survival.pkl')
+    #XGB_from_joblib = pickle.load(open('patient_survival.pkl','rb'))
+    
 
     #when user presses predict button take in UN and PWD and predict
     if st.button("Predict"):
